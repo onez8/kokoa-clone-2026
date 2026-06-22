@@ -1,5 +1,4 @@
-.user-component,
-.user-component__column:first-child {
+.user-component {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -37,6 +36,11 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
 }
 
 .user-component__column:last-child {
